@@ -1,4 +1,5 @@
-$button-pressed-brackground: #0fc7ff;
+$button-pressed-background: #0FC7FF;
+
 .button-group {
   .label {
     margin-right: 0.5rem;
@@ -8,7 +9,7 @@ $button-pressed-brackground: #0fc7ff;
     border: 1px solid #aeb6c6;
     padding: 0.5rem 0.75rem;
     margin: 0;
-    color: black;
+    color: back;
     background-color: #fff;
 
     &.button-yes {
@@ -20,9 +21,9 @@ $button-pressed-brackground: #0fc7ff;
     }
 
     &.button-pressed {
-      background-color: $button-pressed-brackground;
-      border-color: button-pressed-brackground;
-      box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
+      background-color: $button-pressed-background;
+      border-color: $button-pressed-background;
+      box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .2);
     }
   }
 }
